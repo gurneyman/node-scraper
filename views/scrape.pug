@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  .main.container
+    h1 Scrape Results
+    table
+      tr
+        th Title
+        th Release Date
+        th Rating
+      tr
+        td #{json.title}
+        td #{json.release}
+        td #{json.rating}
+
+

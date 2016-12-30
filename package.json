@@ -1,0 +1,26 @@
+{
+  "name": "node-scraper",
+  "version": "0.0.1",
+  "description": "Learning cheerio",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurneyman/node-scraper.git"
+  },
+  "author": "Tom Prince",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurneyman/node-scraper/issues"
+  },
+  "homepage": "https://github.com/gurneyman/node-scraper#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.79.0"
+  }
+}
