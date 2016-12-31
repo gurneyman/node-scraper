@@ -6,6 +6,7 @@ router.get('/', (req, res) => {
     res.render("index", {title: "Home"});
 });
 
-router.get('/scrape', scraper.getImdbInfo);
+router.get('/scrape', scraper.getScraper);
+router.post('/scrape', scraper.getImdbInfo);
 
 module.exports = router;
